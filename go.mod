@@ -1,10 +1,10 @@
-module github.com/grafana/xk6-sql-driver-ramsql
+module github.com/grafana/xk6-sql-driver-trino
 
 go 1.22
 
 require (
 	github.com/grafana/xk6-sql v1.0.0
-	github.com/proullon/ramsql v0.1.4
+	github.com/trinodb/trino-go-client v0.320.0
 )
 
 require (
